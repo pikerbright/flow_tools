@@ -8,4 +8,4 @@ find_package(OpenCV REQUIRED)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC opencv_core PRIVATE ${OpenCV_LIBS})
+target_link_libraries(${PROJECT_NAME} PUBLIC ${OpenCV_LIBS})
